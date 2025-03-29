@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "EmployeeServiceApplication",
+            "request": "launch",
+            "mainClass": "com.example.employeeservice.EmployeeServiceApplication",
+            "projectName": "employee-service"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeserviceApplication",
+            "request": "launch",
+            "mainClass": "com.example.employeeservice.EmployeeserviceApplication",
+            "projectName": "employee-service"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EmployeeserviceApplication<employeeservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.employeeservice.EmployeeserviceApplication",
+            "projectName": "employeeservice",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
